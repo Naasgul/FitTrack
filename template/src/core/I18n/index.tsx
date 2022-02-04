@@ -10,7 +10,7 @@ const translationGetters = {
 };
 
 export const translate = memoize(
-  (key) => i18n.t(key),
+  key => i18n.t(key),
   (key, config) => (config ? key + JSON.stringify(config) : key),
 );
 

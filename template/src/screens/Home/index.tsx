@@ -22,12 +22,12 @@ export const Home = () => {
         <Text variant="body" textAlign="center">
           Data from Api : {JSON.stringify(data)}
         </Text>
-        <Button label="LogOut" onPress={signOut} />
+        {/* <Button label="LogOut" onPress={signOut} />
         <Button
           variant="secondary"
           label="Show message"
           onPress={() => showErrorMessage()}
-        />
+        /> */}
       </View>
     </Screen>
   );

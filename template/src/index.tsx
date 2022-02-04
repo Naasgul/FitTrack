@@ -1,6 +1,6 @@
 import React from 'react';
 import 'react-native-gesture-handler';
-import {ThemeProvider} from 'ui';
+import {Text, ThemeProvider} from 'ui';
 import FlashMessage from 'react-native-flash-message';
 import {RootNavigator} from 'navigation';
 import {hydrateAuth, setI18nConfig} from 'core';
